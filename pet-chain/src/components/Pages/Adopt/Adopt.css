@@ -1,0 +1,353 @@
+.container {
+    position: relative;
+    top:100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95vh;
+      flex-direction: row;
+  
+    }
+    
+    .range-container {
+      width: 300px;
+      height: 590px;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 70px 950px 0px 0px;
+      
+    }
+    
+    .range-title {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #000000;
+      font-family: 'Nunito', sans-serif; /* 'Nunito' as the preferred font family */
+    }
+    
+    .range-values {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #000000;
+      font-weight: bold;
+      font-family: Poppins;
+    }
+    
+    .range-track {
+      height: 5px;
+      background-color: #ccc;
+      border-radius: 2.5px;
+      color: #000000;
+    }
+    
+    .range-thumb {
+      width: 20px;
+      height: 20px;
+      background-color: #888;
+      border-radius: 50%;
+      cursor: grab;
+      transition: background-color 0.2s ease;
+    }
+    
+    .range-thumb.dragged {
+      background-color: #000000;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    .search-container {
+      margin-top: 30px;
+      font-family: Poppins;
+    }
+    
+    .search-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+    
+    .value {
+      margin: 0px 0px 0px 250px;
+      color: #000000;
+      font-family: Poppins;
+      font-weight: bold;
+    }
+    
+    .dot {
+      color: #000000;
+      font-family: Poppins;
+      font-weight: bold;
+    }
+    
+    .search-subtitle {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    
+    
+    .top-brands {
+      font-weight: bold;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+    
+    .brand-checkbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #333;
+    }
+    
+    .brand-name {
+      margin-left: 5px;
+    }
+    
+    .brand-count {
+      margin-left: 5px;
+      color: #777;
+      font-size: 12px;
+    }
+    
+    .year-container {
+      margin-top: 30px;
+    }
+    
+    .year-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #000000;
+      font-family: Poppins;
+    }
+    
+    .year-radio-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 14px;
+      font-family: Poppins;
+    }
+    
+    .year-radio-text {
+      margin-left: 5px;
+    }
+    
+    .search-input {
+      width: 70%;
+      height: 30px;
+      padding: 5px 35px 5px 10px;
+      border: 1px solid gray;
+      border-radius: 5px;
+    }
+    
+    .search-icon {
+      position: relative;
+      top: 13px;
+      left: -30px;
+      transform: translateY(-50%);
+      font-size: 18px;
+      color: #777;
+      cursor: pointer;
+    }
+    
+    .type {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #000000;
+      font-family: Poppins;
+    }
+    
+    .transmission-label {
+      margin: 0px 0px 0px 0px;
+      font-family: Poppins;
+    }
+    
+    .year-dropdown {
+      width: 200px;
+      height: 30px;
+      padding: 5px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+    }
+    
+    .year-dropdown option {
+      font-size: 16px;
+    }
+    
+    .pet-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 300px;
+      margin-left: 400px;
+      margin-top: -295px;
+      position: relative;
+      right:60px;
+      background-color: #f5f5f5;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .pet-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .car-image {
+      max-width: 450px;
+      height: auto;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 5px 5px 0 0;
+      position:"relative";
+    
+    }
+    
+    .car-details {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+      position:"relative";
+    
+    }
+    
+    .car-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+      margin-bottom: 10px;
+      font-family: Poppins;
+      color: #333;
+      position:"relative";
+    
+    }
+    
+    .car-info {
+      font-size: 14px;
+      margin: 0;
+      margin-bottom: 10px;
+      font-family: Poppins;
+      color: #555;
+      position:"relative";
+    
+    }
+    
+    .car-price {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+      margin-bottom: 10px;
+      font-family: Poppins;
+      color: #000000;
+      position:"relative";
+    
+    }
+    
+    .pett-location {
+      font-size: 14px;
+top:-50px;
+      font-family: Poppins;
+      color: #555;
+      position:"relative";
+    }
+    
+    .pet-card p {
+      margin: 0;
+    }
+    
+    .heart-icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 24px;
+      color: black;
+    }
+    
+    .heart-icon:hover {
+     
+      color: rgb(255, 0, 0);
+    }
+    .car-details {
+      padding: 15px;
+      line-height: 1.4;
+    }
+    
+    .car-title {
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    
+    .car-info,
+    .car-location {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #555;
+    }
+    
+    .pet-price {
+      font-size: 16px;
+      margin-bottom: -20px;
+      color:rgb(255, 0, 0);
+    }
+    
+    .car-info,
+    .car-location,
+    .pet-price {
+      font-family: 'Nunito', sans-serif; /* 'Nunito' as the preferred font family */
+    }
+    
+    .loccation-icon{
+      position: relative;
+      right:70px;
+      top: 23px;
+    
+    }
+    .car-amount-line {
+      position: absolute;
+      bottom: 48px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #ccc;
+    }
+    
+    
+    
+    .apply{
+        background-color: red;
+        font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+     color: white;
+        font-size: 16px;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 40px;
+        cursor: pointer;
+    }
+      
+      .apply:hover {
+        background-color: darkred;
+      }
+      .heart-iccon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+  color: red;
+      }
