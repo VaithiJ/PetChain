@@ -154,7 +154,7 @@ const Open = () => {
           </div> */}
           <br />
           <br />
-          <div className="catd">
+          {/* <div className="catd">
 
             <div className="contcard">
               <div className="verifcont">
@@ -176,7 +176,78 @@ const Open = () => {
                 </p>
               </div>
             </div>
+          </div> */}
+
+<section className="text-gray-600 body-font"  >
+  <div className="container px-5 py-24 mx-auto" style={{backgroundColor:"white"}} >
+    <div className="flex flex-wrap -m-4" style={{display:"flex", flexDirection:"coloumn"}}>
+      <div className="p-4 md:w-1/3" style={{backgroundColor:"white"}}>
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden" style={{boxShadow:"0px -1px 8px -3px rgba(0,0,0,0.75)", width:"320px",height:"400px", position:"relative", left:"-80px", borderRadius:"10px"}}>
+          <img
+            className="lg:h-8 md:h-36 w-full object-cover object-center"
+            src={check}
+            alt="blog"
+            style={{width:"250px", height:"250px", marginRight:"10px", borderRadius:"10px"}}
+
+          />
+          <div className="p-6" style={{marginLeft:"-130px"}}>
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"  style={{fontFamily:"Nunito", position:"relative", left:"-35px"}}>
+              Verified
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3"  style={{fontFamily:"system-ui", fontSize:"20px", position:"relative", left:"10px"}}>
+            Buy only verified pets
+            </h1>
+          
+            
           </div>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3" style={{backgroundColor:"white"}}>
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden" style={{boxShadow:"0px -1px 8px -3px rgba(0,0,0,0.75)", width:"300px",height:"400px", position:"relative", left:"-0px", borderRadius:"10px"}}>
+          <img
+            className="lg:h-48 md:h-36 w-full object-cover object-center"
+            src={petting}
+            alt="blog"
+            style={{width:"300px", height:"250px",marginRight:"10px", borderRadius:"10px"}}
+
+          />
+          <div className="p-6" style={{marginLeft:"-130px"}}>
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"  style={{fontFamily:"Nunito", position:"relative", left:"-25px"}}>
+              Trusted
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3" style={{fontFamily:"system-ui", fontSize:"20px", position:"relative", left:"30px"}}>
+            10+ Parameters Verified
+            </h1>
+          
+           
+          </div>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3" style={{backgroundColor:"white"}}>
+        <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden" style={{boxShadow:"0px -1px 8px -3px rgba(0,0,0,0.75)", width:"300px",height:"400px", position:"relative", left:"80px", borderRadius:"10px"}}>
+          <img
+            className="lg:h-48 md:h-36 w-full object-cover object-center"
+            src={gold}
+            alt="blog"
+            style={{width:"300px", height:"250px", borderRadius:"10px"}}
+
+          />
+          <div className="p-6"  >
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1" style={{fontFamily:"Nunito", position:"relative", left:"-80px"}}>
+              Examined
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3" style={{fontFamily:"system-ui", fontSize:"20px", position:"relative", left:"-30px"}}>
+            All pets verified in person
+            </h1>
+           
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
           
           <div className="buy">
             <ul className="descc">

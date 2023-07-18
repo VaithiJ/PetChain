@@ -34,7 +34,7 @@ const BuyButton = () => {
           <div className="right" />
         </div>
       </div>
-      <button onClick={buyPets}>Buy</button>
+      <button onClick={buyPets} style={{width:"200px"}}>Buy</button>
       <div className="paw" />
       <div className="paw top" />
     </div>
